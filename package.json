@@ -24,8 +24,8 @@
         "data-spreadsheet"
     ],
     "dependencies": {
-        "jsuites": "^4.9.17",
-        "@jspreadsheet/formula": "^1.1.0"
+        "@jspreadsheet/formula": "^1.1.0",
+        "jsuites": "^4.9.27"
     },
     "devDependencies": {
         "chai": "^4.3.4",
