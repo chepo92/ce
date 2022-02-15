@@ -1,6 +1,6 @@
 // Jspreadsheet core object
 
-var jexcel = (function(el, options) {
+export var jexcel = (function(el, options) {
     // Create jspreadsheet object
     var obj = {};
     obj.options = {};

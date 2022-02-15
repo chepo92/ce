@@ -1,13 +1,28 @@
 {
-    "name": "jspreadsheet-ce",
-    "title": "The Javascript Spreadsheet",
-    "description": "Jspreadsheet is a lightweight, vanilla javascript plugin to create amazing web-based interactive tables and spreadsheets compatible with Excel, Google Spreadsheets and any other spreadsheet software.",
+    "version": "0.0.1",
+    "name": "kspreadsheet",
+    "title": "A Better Browser Spreadsheet",
+    "description": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jspreadsheet/ce.git"
+        "url": "https://github.com/kentbot/jspreadsheet"
     },
-    "author": {
-        "name": "Contact <contact@jspreadsheet.com>"
+    "scripts": {
+        "build": "webpack",
+        "build:watch": "webpack --watch"
+    },
+    "main": "dist/index.js",
+    "dependencies": {
+        "jsuites": "^4.3.0",
+        "webpack": "^5.36.2",
+        "webpack-cli": "^4.7.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.0",
+        "@babel/preset-env": "^7.14.1",
+        "babel-loader": "^8.2.2",
+        "ts-loader": "^9.1.2",
+        "typescript": "^4.2.4"
     },
     "keywords": [
         "spreadsheet",
@@ -22,13 +37,5 @@
         "data-table",
         "data-grid",
         "data-spreadsheet"
-    ],
-    "dependencies": {
-        "jsuites": "^4.3.0"
-    },
-    "main": "dist/index.js",
-    "version": "4.7.3",
-    "bugs": "https://github.com/jspreadsheet/ce/issues",
-    "homepage": "https://github.com/jspreadsheet/ce",
-    "download": "https://github.com/jspreadsheet/ce/archive/master.zip"
+    ]
 }
